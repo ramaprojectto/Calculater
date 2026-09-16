@@ -1,0 +1,40 @@
+/*                            Calculator                      */
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    //define the variabls
+    
+    string opretion ;
+    double num1 , num2 ;
+    
+    //user input 
+    
+    cout << "Enter the first number: ";
+    cin >> num1;
+    
+    cout << "Enter the opretion ( + , - , * , / ): ";
+    cin >> opretion;
+    
+    cout << "Enter the second number: ";
+    cin >> num2;
+    
+    cout << "        ***********************************     \n ";
+    cout<< "               The Result Is = ";
+    // if else statment 
+     if(opretion == "+")
+     {
+         cout<< num1 + num2;}
+         else if(opretion == "-")
+        {
+         cout<<  num1 - num2 ;}
+        else if(opretion == "*")
+        {
+         cout<< num1 * num2;}
+        else if(opretion == "/")
+        {
+         cout<< num1 / num2;}
+
+    return 0;
+}
